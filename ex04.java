@@ -16,9 +16,9 @@ public class dice{
     int sum = a + b;
     System.out.println("Total value : " + sum);
 
-    //The new feature I added is "If the dice is just seven, display a happy message"                                                                                                                     
+    //占い                                                                                                                     
     if(sum == 7){
-      System.out.println("Lucky 7! Maybe there is something good for " + string + "!");
+      System.out.println("Lucky 7! Maybe there is something good for " + string + "!"); //名前を聞くパート
     }else if(sum > 7){
       System.out.println(string + " won!");
     }else{
